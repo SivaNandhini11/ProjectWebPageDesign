@@ -6,8 +6,8 @@
 }
 .header
 {
+    
     height: 100%;
-    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(darplaces.jpg);
     background-size: cover;
     background-position: center;
@@ -17,11 +17,14 @@
     color: #99ccff;
 
 }
-.header img
-{
-    width: 100%;
-    float:left;
-}
+@media screen and (max-width: 465px) {
+    body {
+      width: fit-content;
+      padding-right: 0% !important;
+      align-self: center;
+    }
+  }
+
 .login-btn
 {
     width: 100px;
