@@ -20,24 +20,13 @@
 @media screen and (max-width: 465px) {
     body {
       width: fit-content;
-      padding-right: 0% !important;
+      padding-right: 0% !important  ;
       align-self: center;
     }
   }
 
-.login-btn
-{
-    width: 100px;
-    padding-top: 10px;
-    padding: 8px 5px;
-    outline: none !important;
-    border: 5px solid #fff;
-    border-radius: 50px;
-    background-image:none;
-    background-color: transparent;
-    color: #fff;
-    float: right;
-}
+
+
 .header h1
 {
     padding-top: 250px;
